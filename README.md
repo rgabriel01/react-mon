@@ -1,7 +1,7 @@
 # react-mon
 A trial dive on the reactJs framework
 
-Reactjs Setup
+# H1 Reactjs Setup
 # setup package.json
 `npm init`
 
@@ -28,9 +28,11 @@ var config = {
 module.exports = config;
 ```
 
-to compile `bundle.js` file execute the following command on the CLI
+# compile bundle.js
+file execute the following command on your CLI
 `./node_modules/.bin/webpack -d`
 
+# jsx loader
 to enable jsx, we install the following; babel-loaders
 `npm i babel-loader babel-core babel-preset-es2015 babel-preset-react -S`
 
